@@ -99,7 +99,7 @@ body{
 }
 
 .bg-swloandrina{
-  min-height: 300px;
+  min-height: 100px;
   background-image: url('/assets/img/cover-swloandrina.png');
   background-size: cover;
   background-position: center center;
@@ -147,6 +147,9 @@ body{
     -ms-flex: 1;
     -webkit-box-flex: 1;
     flex: 1;
+  }
+  .bg-swloandrina{
+    min-height: 300px;
   }
 }
 
