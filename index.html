@@ -18,32 +18,29 @@
   </head>
 
   <body>
-
-    <nav class="site-header sticky-top py-1">
-      <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="#">
-          <!-- <img src="/assets/img/logo-bee.png" class="img-logo" alt="" srcset=""> -->
-          <img src="/assets/img/logo.png" class="img-logo" alt="" srcset="">
-        </a>
-        <div class="d-flex justify-content-end">
-          <a class="py-2 ml-3 d-none d-md-inline-block" href="#about">Sobre</a>
-          <a class="py-2 ml-3 d-none d-md-inline-block" href="#product">Produto</a>
-          <a class="py-2 ml-3 d-none d-md-inline-block" href="#team">Time</a>
-          <a class="py-2 ml-3 d-none d-md-inline-block" href="http://app.beemoney.co">Login</a>
-          <!-- <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-          <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-          <a class="py-2 d-none d-md-inline-block" href="#">Cart</a> -->
+    <nav class="navbar navbar-expand-lg site-header sticky-top py-1">
+        <img src="/assets/img/logo.png" class="img-logo nav-brand" alt="" srcset="">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menunavbar" aria-controls="menunavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="menunavbar">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about">Sobre</a>
+          <a class="nav-item nav-link" href="#product">Produto</a>
+          <a class="nav-item nav-link" href="#team">Time</a>
+          <a class="nav-item nav-link" href="http://app.beemoney.co" target="_blank">Login</a>
         </div>
       </div>
     </nav>
 
-    <div class="position-relative overflow-hidden p-3 p-md-5 bg-light">
+    <div id="home" class="header position-relative overflow-hidden p-3 p-md-5 bg-light">
       <div class="header-text col-md-10 p-lg-5 mx-auto my-5">
         <h1 class="display-4 font-weight-normal">Bee Money</h1>
         <!-- <p class="lead font-weight-normal">zzzzzzzzz</p> -->
-        <a class="btn btn-outline-secondary" href="http://app.beemoney.co">Comece agora</a>
+        <a class="btn btn-outline-secondary" href="http://app.beemoney.co" target="_blank">Comece agora</a>
       </div>
-      <div class="product-device box-shadow d-none d-md-block"></div>
+      <div class="product-device box-shadow d-block"></div>
       <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
     </div>
 
@@ -81,8 +78,8 @@
             Não consegue responder essas perguntas? Utilizando o nosso Dashboard a tomada de decisões sobre posicionamento do apiário, e a época do ano de maior produtividade se torna muito mais fácil, você terá todo o histórico de produtividade do apiário na palma da sua mão, e poderá facilmente comparar os dados para otimizar a suas tomadas de decisões.
           </p>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" src="/assets/img/dashboard.jpeg">
+        <div class="col-md-5 m-auto">
+          <img class="featurette-image img-fluid mx-auto" src="/assets/img/dashboard-mobile.jpeg">
         </div>
       </div>
 
@@ -124,12 +121,12 @@
         <div class="col-lg-3 my-3">
           <img class="rounded-circle" src="/assets/img/team/vinicius-romano.jpeg" alt="Generic placeholder image" width="140" height="140">
           <h2>Vinicius Romano</h2>
-          <p>Desenvolvedor</p>
+          <p>Engenheiro da computação</p>
         </div>
         <div class="col-lg-3 my-3">
           <img class="rounded-circle" src="/assets/img/team/matheus-flausino.jpeg" alt="Generic placeholder image" width="140" height="140">
           <h2>Matheus Flausino</h2>
-          <p>Desenvolvedor e Designer</p>
+          <p>Engenheiro da computação</p>
         </div>
         <div class="col-lg-3 my-3">
           <img class="rounded-circle" src="/assets/img/team/lais-santos.jpeg" alt="Generic placeholder image" width="140" height="140">
