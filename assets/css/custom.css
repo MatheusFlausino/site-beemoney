@@ -54,11 +54,32 @@ body{
   z-index: 2;
 }
 
+.header-text .logo.title{
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.text-1{
+  font-size: 14px;
+}
+
+.text-2{
+  font-size: 16px;
+}
 /* .header-text h1{
   font-size: 12px !important;
 } */
+.contato-pessoal:hover,
+.contato-pessoal:focus,
+.contato-pessoal:active,
+.contato-pessoal{
+  color: #212529;
+  text-decoration: none;
+}
 
 .product-device {
+  display: none;
   position: absolute;
   right: -10%;
   bottom: -35%;
@@ -165,6 +186,7 @@ body{
 }
 @media (min-width: 768px) {
   .product-device {
+    display: block;
     right: 10%;
     bottom: -30%;
     width: 300px;
@@ -178,6 +200,16 @@ body{
   }
   .bg-swloandrina{
     min-height: 300px;
+  }
+  .header-text .logo.title{
+    max-width: 100%;
+  }
+  .text-1{
+    font-size: 1rem;
+  }
+
+  .text-2{
+    font-size: 1.5rem;
   }
 }
 
